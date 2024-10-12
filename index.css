@@ -33,7 +33,7 @@ ul {
 }
 
 ul li {
-    margin: 0 10px;
+    margin: 0 15px;
 }
 
 ul li a {
@@ -53,4 +53,14 @@ ul li a {
 
 .sign-in-btn:hover {
     background-color: darkred;
+}
+
+.hero_new__video {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
 }
